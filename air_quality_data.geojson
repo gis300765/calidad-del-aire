@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Station 1",
+                "aqi": 85,
+                "pm10": 45,
+                "pm2_5": 30,
+                "o3": 20
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.1, 51.5]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Station 2",
+                "aqi": 55,
+                "pm10": 25,
+                "pm2_5": 20,
+                "o3": 10
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-0.12, 51.52]
+            }
+        }
+    ]
+}
